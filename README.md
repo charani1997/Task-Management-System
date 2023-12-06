@@ -1,3 +1,35 @@
+## Task Management System
+This is a Fullstack web application using Spring Boot, React js and MYSQL.
+
+a web application that allows users to manage a list of tasks. The application 
+should have the following features: 
+1. User Authentication: 
+• Users should be able to register and log in using their email and password. 
+• Implement user authentication with appropriate security measures. 
+2. Task Management: 
+• Users should be able to create, read, update, and delete tasks. 
+• Tasks should have a title, description, status (e.g., "To Do," "In Progress,” 
+"Done"), and a due date. 
+3. Search and filter: 
+• Implement a search and filter functionality that allows users to search for tasks 
+by title, description, status, or due date. 
+4. User Profile: 
+• Users should have a profile page displaying their information.
+
+#Instruction
+Create a MySQL database named "task_management_system".
+Set the accurate values for spring.datasource.url, spring.datasource.username, and spring.datasource.password.
+Build and Run the Spring Boot Backend:
+Build the backend application using Maven
+Run the backend application
+Install Dependencies
+Run the React Frontend:
+Install dependencies using npm: Run npm install.
+Execute npm start.
+Access the Application:
+Open your web browser and enter http://localhost:3000 to access the React frontend and interact with the application.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
